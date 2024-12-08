@@ -2,86 +2,30 @@ import type { ProjectData } from '@/types'
 
 export const projectData: ProjectData = [
   {
-    title: 'Projects Group',
+    title: '2021',
     projects: [
       {
-        text: 'Project Name',
-        description: 'Your project description information is a long piece of text.',
-        icon: 'i-carbon-campsite',
-        href: '/',
-      },
-      {
-        text: 'Project Name',
-        description: 'Your project description information is a long piece of text.',
-        icon: 'i-carbon-campsite',
-        href: '/',
+        text: 'Cowin Pinger',
+        description: 'Get notified on your phone when there is a vaccine slot available at your location, by running a script on your computer. Bundled into a neat npm library for ease of use.',
+        icon: 'i-mdi-npm-variant-outline',
+        href: 'https://www.npmjs.com/package/cowin-pinger',
       },
     ],
   },
   {
-    title: 'Projects Group',
+    title: '2020',
     projects: [
       {
-        text: 'Project Name',
-        description: 'Your project description information is a long piece of text.',
-        icon: 'i-carbon-campsite',
-        href: '/',
+        text: 'Find Me a Job',
+        description: 'Aggregator of tech jobs from the leading tech parks in Kerala. Get email notifications for new job postings matching your search query.',
+        icon: 'i-material-symbols-light:screen-search-desktop-rounded',
+        href: 'http://github.com/abhinavdc/findmeajob/',
       },
       {
-        text: 'Project Name',
-        description: 'Your project description information is a long piece of text.',
-        icon: 'i-carbon-campsite',
-        href: '/',
-      },
-      {
-        text: 'Project Name',
-        description: 'Your project description information is a long piece of text.',
-        icon: 'i-carbon-campsite',
-        href: '/',
-      },
-    ],
-  },
-  {
-    title: 'Project Name',
-    projects: [],
-  },
-  {
-    title: 'Projects Group',
-    projects: [
-      {
-        text: 'Project Name',
-        description: 'Your project description information is a long piece of text.',
-        icon: 'i-carbon-campsite',
-        href: '/',
-      },
-      {
-        text: 'Project Name',
-        description: 'Your project description information is a long piece of text.',
-        icon: 'i-carbon-campsite',
-        href: '/',
-      },
-      {
-        text: 'Project Name',
-        description: 'Your project description information is a long piece of text.',
-        icon: 'i-carbon-campsite',
-        href: '/',
-      },
-      {
-        text: 'Project Name',
-        description: 'Your project description information is a long piece of text.',
-        icon: 'i-carbon-campsite',
-        href: '/',
-      },
-    ],
-  },
-  {
-    title: 'Projects Group',
-    projects: [
-      {
-        text: 'Project Name',
-        description: 'Your project description information is a long piece of text.',
-        icon: 'i-carbon-campsite',
-        href: '/',
+        text: 'Trivia',
+        description: 'Test your trivia knowledge using the Trivia App. Built this to learn Clojure. Leverages the Open Trivia DB for trivia questions.',
+        icon: 'i-ic:sharp-quiz',
+        href: 'https://trivia-app-abd.netlify.app/',
       },
     ],
   },

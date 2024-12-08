@@ -49,6 +49,9 @@ export default defineConfig({
   safelist: [
     'i-ri-file-list-2-line',
     'i-carbon-campsite',
+    'i-mdi-npm-variant-outline',
+    'i-material-symbols-light:screen-search-desktop-rounded',
+    'i-ic:sharp-quiz',
     'i-simple-icons-github',
     'i-simple-icons-linkedin',
     'i-simple-icons-stackoverflow',
