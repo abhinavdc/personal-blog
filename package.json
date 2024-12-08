@@ -1,17 +1,17 @@
 {
-  "name": "astro-theme-vitesse",
+  "name": "personal-blog",
   "type": "module",
   "version": "1.1.0",
-  "description": "A minimal, SEO-friendly portfolio and blog theme for Astro, supports Vue and UnoCSS.",
-  "author": "Kieran Wong <kieranwme@gmail.com> (https://github.com/kieranwv/)",
+  "description": "A space where I share, explore, and occasionally untangle my thoughts as a developer.",
+  "author": "Abhinav Dinesh <abhinavdinesh95@gmail.com> (https://github.com/abhinavdc/)",
   "license": "MIT",
   "keywords": [
-    "kieranwong9865",
-    "astro-theme-vitesse",
     "astro",
     "blog",
-    "starter",
-    "template"
+    "abhinav",
+    "abhinav dinesh",
+    "personal",
+    "website"
   ],
   "engines": {
     "node": ">=v18.17.1 || >=v20.3.0 || >=21"

@@ -28,15 +28,15 @@ function activeLink(pathname: string) {
 <BaseLayout
   title="Blog"
   description="List of all the blog posts."
-  pageNav={true}
-  pageOperate={true}
+  pageNav={false}
+  pageOperate={false}
 >
   <div class="flex flex-col gap-2 sm:flex-row sm:gap-4 flex-wrap mb-8">
     {
       siteConfig.page.blogLinks.map((nav) => (
         <a
           aria-label={nav.text}
-          class={`nav-link text-3xl font-bold ${activeLink(nav.href) ? 'opacity-80' : 'opacity-30 hover:opacity-50'}`}
+          class={`nav-link text-title font-bold ${activeLink(nav.href) ? 'opacity-80' : 'opacity-30 hover:opacity-50'}`}
           href={nav.href}
         >
           {nav.text}
