@@ -1,111 +1,45 @@
-# Vitesse theme for Astro
+# Personal Blog
 
-A minimal, SEO-friendly portfolio and blog theme for Astro, supports Vue and UnoCSS.
+This is my personal blog built using Astro, featuring a minimal and fast design. It includes a portfolio section and blog posts, with modern features like dark/light mode, SEO optimization, and lightning-fast performance. The project is customized from the Vitesse theme for Astro.
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/0624323a-339f-48da-8b28-03037d664c40/deploy-status)](https://app.netlify.com/sites/astro-theme-vitesse/deploys)
+## **Features**
 
-## Preview
+- 100/100 Lighthouse performance.
+- Responsive and mobile-friendly.
+- SEO-friendly with automatic sitemap generation.
+- Light/Dark theme toggle.
+- Support for Markdown and MDX for posts.
+- Built with Vue and styled with UnoCSS.
 
-![Preview Image](./public/preview.jpg)
+## **Getting Started**
 
-## Features
+To run this project locally, follow these steps:
 
-- 100 / 100 Lighthouse performance.
-- Responsive.
-- SEO-friendly.
-- Light / Dark Theme.
-- Markdown support.
-- <a target="_blank" href="https://mdxjs.com/">MDX</a> (components in your markdown) support.
-- <a target="_blank" href="https://vuejs.org/">Vue</a> SFC component support.
-- Auto generated sitemap and RSS Feed <a target="_blank" href="https://vueuse.org/">VueUse</a> & <a target="_blank" href="https://lodash.com/">Lodash</a> support.
-- Use the <a target="_blank" href="https://unocss.dev/">UnoCSS</a> for style, it's fast.
+### 1. Clone the repository
 
-## Lighthouse Performance
+```bash
+git clone https://github.com/your-username/your-repo-name.git
+cd your-repo-name
+```
 
-![Lighthouse Performance Image](./public/lighthouse.jpg)
+### 2. Install dependencies
 
-## Quick Start
-
-[![Deploy to Netlify Button](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/kevinwong865/astro-theme-vitesse)
-
-Click this button, it will create a new repo for you that looks exactly like this one, and sets that repo up immediately for deployment on Netlify.
-
-If you  just want to develop locally, you can [create a repo](https://github.com/kevinwong865/astro-theme-vitesse/generate) from this template on GitHub.
-
-## Usage
-
-First, install the dependencies.
-
+Install the required dependencies.
 ```bash
 npm install
 ```
 
-Just run and visit http://localhost:1977.
+### 3. Start the development server
 
+Start the development server and visit the provided URL to see your site in action.
 ```bash
 npm run dev
 ```
 
-> Node.js version 18 or higher is required for this project.
+## **Deploying**
 
-To build the App, you can run:
+To deploy your blog online, you can use Netlify, Vercel, or any other platform that supports static site hosting.
 
-```bash
-npm run build
-```
+## **License**
 
-You will then see the `dist` folder generated for publishing, which you can preview locally with the following command.
-
-```bash
-npm run preview
-```
-
-## Use pnpm / yarn
-
-If you want to use pnpm or yarn as a package management tool, please refer to the following steps.
-
-> If `preinstall` exists in `scripts`, remove it first.
-
-### pnpm
-
-Replace `"pre-commit": "npx lint-staged"` in package.json with `"pre-commit": "pnpm lint-staged"`.
-
-And replace `"*": "npm run lint:fix"` with `"*": "pnpm lint:fix"`.
-
-Like this:
-
-```json
-{
-  // ...
-  "simple-git-hooks": {
-    "pre-commit": "pnpm lint-staged"
-  },
-  "lint-staged": {
-    "*": "pnpm lint:fix"
-  }
-}
-```
-
-### yarn
-
-Replace `"pre-commit": "npx lint-staged"` in package.json with `"pre-commit": "yarn lint-staged"`.
-
-And replace `"*": "npm run lint:fix"` with `"*": "yarn lint:fix"`.
-
-Like this:
-
-```json
-{
-  // ...
-  "simple-git-hooks": {
-    "pre-commit": "yarn lint-staged"
-  },
-  "lint-staged": {
-    "*": "yarn lint:fix"
-  }
-}
-```
-
-## License
-
-[MIT License](./LICENSE) © 2024 [Kieran Wang](https://github.com/kieranwv/)
+This project is licensed under the MIT License.
