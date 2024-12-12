@@ -74,7 +74,7 @@ One of the biggest hurdles we faced during the migration was dealing with outdat
   We started by auditing and updating outdated dependencies using tools like `npm outdated`. Following changelogs for each package helped us navigate breaking changes and understand any required adjustments.
 
 - **Fixing Breaking Changes:**
-  Several dependencies, like React Router and state management libraries, required refactoring due to breaking changes in their APIs. We tackled these updates incrementally, testing thoroughly after each update.
+  Several dependencies, like React Router and other core third-party libraries, required refactoring due to breaking changes in their APIs. We tackled these updates incrementally, testing thoroughly after each update.
 
 - **Resolving Peer Dependency Warnings:**
   Peer dependency conflicts were addressed by either upgrading related packages or overriding specific versions where appropriate.
@@ -87,6 +87,7 @@ This comprehensive cleanup not only resolved compatibility issues but also reduc
 ## **Results**
 
 ### 1. **Improved Build and HMR Times**
+
 - **Build Times:** Reduced significantly compared to Webpack, improving developer productivity.
 - **HMR Speed:** Vite’s instant module updates dramatically improved the local development experience.
 
@@ -94,7 +95,17 @@ This comprehensive cleanup not only resolved compatibility issues but also reduc
 Vite’s ecosystem includes Vitest, a lightweight testing framework. Integration was straightforward, and it replaced our existing Jest setup with minimal effort.
 
 ### 3. **Reduced Dependency Size**
-- The project’s **node_modules** size shrank from **2.5 GB to under 500 MB**.
+- The project’s **node_modules** size shrank from **3.3 GB to around 400 MB**.
 - This streamlined our development environment and made dependency management more efficient.
+
+Here's is a breakdown of the actual stats
+
+| Metric                             | Before (CRA)      | After (Vite)       | Reduction (%)  |
+|------------------------------------|-------------------|--------------------|----------------|
+| node_modules Size                  | 3.34 GB           | 417 MB             | 88%            |
+| Deployment Time (GHA)              | 10+ minutes       | ~2.2 minutes       | 75%            |
+| Installing Dependencies            | 22 seconds        | 14 seconds         | 35%            |
+| Run Development Server             | 8.3 seconds       | 415 ms             | 95%            |
+| Local Build Time                   | 4:41 minutes      | 38 seconds         | 85%            |
 
 Migrating to Vite has been a game-changer for our project. While there were challenges along the way, the performance improvements and streamlined workflow have been well worth the effort. If you're considering a switch, I highly recommend taking the leap!
