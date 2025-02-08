@@ -1,7 +1,7 @@
 ---
 title: A Journey to Faster Builds and Modern Standards
 description: Learn how I migrated a React app from Webpack to Vite, tackling compatibility challenges and achieving faster builds, smoother HMR, and a future-proof codebase.
-date: 2024-12-07
+date: 2025-01-07
 ---
 
 The front-end world moves fast, and keeping up with the latest tools and trends is key to staying efficient and scaling projects smoothly. I recently decided to migrate a React project from Webpack (using Create React App) to Vite—a modern build tool that's been making waves in the industry. Here’s how it went, the bumps I hit along the way, and the awesome results I got.
@@ -98,7 +98,7 @@ Vite’s ecosystem includes Vitest, a lightweight testing framework. Integration
 - The project’s **node_modules** size shrank from **3.3 GB to around 400 MB**.
 - This streamlined our development environment and made dependency management more efficient.
 
-Here's is a breakdown of the actual stats
+Here's a breakdown of the actual stats
 
 | Metric                             | Before (CRA)      | After (Vite)       | Reduction (%)  |
 |------------------------------------|-------------------|--------------------|----------------|
